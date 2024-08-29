@@ -1702,6 +1702,24 @@ li {
     padding: 1rem;
     transition: left 0.3s ease;
     /* Плавное перемещение */
+
+    li {
+        list-style: none;
+        margin: 1rem 0;
+
+        a {
+            color: rgba(47, 116, 131, 1);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19.2px;
+            text-align: left;
+        }
+
+        .active {
+            color: rgba(36, 190, 224, 1);
+        }
+    }
+
 }
 
 #mobilebtn {
@@ -1711,23 +1729,6 @@ li {
 .mobile_nav.open {
     left: 0;
     /* Показать меню */
-}
-
-li {
-    list-style: none;
-    margin: 1rem 0;
-
-    a {
-        color: rgba(47, 116, 131, 1);
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 19.2px;
-        text-align: left;
-    }
-
-    .active {
-        color: rgba(36, 190, 224, 1);
-    }
 }
 
 .emploes_section_image {
@@ -2284,7 +2285,7 @@ li {
         justify-content: center;
     }
 
-  
+
 
     .main_title {
         h1 {
@@ -2591,7 +2592,7 @@ li {
     }
 
     .aboutcont {
-        padding: 0;
+        padding: 0 !important;
     }
 
     .user_section {
