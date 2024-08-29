@@ -2164,7 +2164,7 @@ li {
     }
 
     .emploes_section {
-        padding: 0;
+        padding: 1rem;
     }
 
     .service_instuction_item_num {
@@ -2777,7 +2777,7 @@ li {
     }
 
     .top_emploses_main_card_image {
-        min-width: 70px;
+        min-width: 110px;
         min-height: 70px;
     }
 
