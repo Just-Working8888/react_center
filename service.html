@@ -86,7 +86,20 @@
 
 
     </header>
-    <main class="service">
+    <script>
+        const mobilebtn = document.getElementById("mobilebtn");
+        const closebtn = document.getElementById("closebtn");
+        const mobile_nav = document.getElementById("mobile_nav");
+
+        mobilebtn.addEventListener("click", () => {
+            mobile_nav.classList.add("open"); // Открыть меню
+        });
+
+        closebtn.addEventListener("click", () => {
+            mobile_nav.classList.remove("open"); // Закрыть меню
+        });
+
+    </script>  <main class="service">
         <div class="emploes_section">
             <div class="emploes_section_image">
                 <img src="https://s3-alpha-sig.figma.com/img/6bd7/92be/b79bf417e13b962d402ed83dab4e1cdb?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZDfuGAjFOitNMtgmHhq5UCRn1HaojMF78WXh6P0nkvI~OXxbZ2K-DosJ3wNj8-GSkz6SeiitL8lLEgBiYYZoJQR3MBVzT4O37t-d5paokVAJo2TJW0Q1XZvuTkSNiLj87sHIzF~66T0dVsaRoKxyEXXFiJvBeM90P7L~ZUiZukaTnKKQLP1Tw6ZnllvPUlmHkyJDnm6XP02i~7EyL7d8Df2SgSxTlagd9zCjCOgVnPu1WJG~vXSa7OMiA-NYf9yo98utO3GgzUG2iW0BWFfNpZx--d3LUIZVZEiZUYhduRV2w1bE2UVm9jW9brPyEe1Bf-8Ufsq5ku6GKi~XFcJstg__"

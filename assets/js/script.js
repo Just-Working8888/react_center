@@ -85,14 +85,3 @@ const swiper4 = new Swiper('.swiper-container4', {
 
 
 
-const mobilebtn = document.getElementById("mobilebtn");
-const closebtn = document.getElementById("closebtn");
-const mobile_nav = document.getElementById("mobile_nav");
-
-mobilebtn.addEventListener("click", () => {
-    mobile_nav.classList.add("open"); // Открыть меню
-});
-
-closebtn.addEventListener("click", () => {
-    mobile_nav.classList.remove("open"); // Закрыть меню
-});

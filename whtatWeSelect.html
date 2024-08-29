@@ -87,7 +87,20 @@
 
 
     </header>
-    <br><br><br>
+    <br><br><br>    <script>
+        const mobilebtn = document.getElementById("mobilebtn");
+        const closebtn = document.getElementById("closebtn");
+        const mobile_nav = document.getElementById("mobile_nav");
+
+        mobilebtn.addEventListener("click", () => {
+            mobile_nav.classList.add("open"); // Открыть меню
+        });
+
+        closebtn.addEventListener("click", () => {
+            mobile_nav.classList.remove("open"); // Закрыть меню
+        });
+
+    </script>
     <br>
     <main class="container">
         <div class="main_title">
