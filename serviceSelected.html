@@ -6,25 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Реацентр</title>
     <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/styles/swiper.min.css">
 </head>
 
 <body>
     <header>
+        <div id="mobile_nav" class="mobile_nav">
+            <ol>
+                <li><a class="active" href="./aboutUs.html">О нас</a></li>
+                <li><a href="./metodika.html">Методика</a></li>
+                <li><a href="./whatWe.html">Что мы лечим</a></li>
+                <li><a href="./emploes.html">Специалисты</a></li>
+                <li><a href="./service.html">Услуги</a></li>
+                <li><a href="./revues.html">Отзывы</a></li>
+                <li><a href="./contact.html">Контакты</a></li>
+            </ol>
+
+            <svg id="closebtn" xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27"
+                fill="none">
+                <path d="M6.5 20.5L13.5 13.5M13.5 13.5L20.5 6.5M13.5 13.5L6.5 6.5M13.5 13.5L20.5 20.5" stroke="#2F7483"
+                    stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+
+        </div>
+
+
+
+
+
         <nav class="top_nav container">
+
+            <button id="mobilebtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+                    <path d="M4.7998 3.6001H19.1998" stroke="#2F7483" stroke-width="1.6" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M4.7998 10H19.1998" stroke="#2F7483" stroke-width="1.6" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M4.7998 16.3999H19.1998" stroke="#2F7483" stroke-width="1.6" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
             <div class="head_logo">
                 <img src="./assets/images/реа центр.png" alt="">
             </div>
+            <div></div>
             <ol>
-                <li><a href="#">О нас</a></li>
-                <li><a href="#">Методика</a></li>
-                <li><a href="#">Что мы лечим</a></li>
-                <li><a href="#">Специолисты</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Отзывы</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="./aboutUs.html">О нас</a></li>
+                <li><a href="./metodika.html">Методика</a></li>
+                <li><a href="./whatWe.html">Что мы лечим</a></li>
+                <li><a href="./emploes.html">Специолисты</a></li>
+                <li><a href="./service.html">Услуги</a></li>
+                <li><a href="./revues.html">Отзывы</a></li>
+                <li><a href="./contact.html">Контакты</a></li>
             </ol>
         </nav>
-        <div class="h80"></div>
+        <div class="bottom_nav_bg">
+            <div class="container">
+                <nav class="bottom_nav">
+                    <h3>Международная сеть клиник Реацентр Кырыгзстан</h3>
+                    <div class="bottom_nav_flex">
+                        <div>
+                            <img src="./assets/images/logo_formikro_blue 1.png" alt="">
+                        </div>
+                        <div class="head_sosial">
+                            <a href="#" class="head_sosial_icon">
+                                <img src="./assets/icon/Social Icons.svg" alt="">
+                            </a>
+                            <a href="#" class="head_sosial_icon">
+                                <img src="./assets/icon/Social Icons — копия.svg" alt="">
+                            </a>
+                            <a href="#" class="head_sosial_icon">
+                                <img src="./assets/icon/Social Icons — копия 2.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
 
 
     </header>
@@ -41,6 +100,15 @@
                 <br>
                 <p>Заведующей отделением для составления программы реабилитации:</p>
             </div>
+        </div>
+        <div class="mobile oloooooo">
+
+            <h1>
+                КОНСУЛЬТАЦИЯ и ПЕРВИЧНОЕ ОБСЛЕДОВАНИЕ
+            </h1>
+            <br>
+            <p>Заведующей отделением для составления программы реабилитации:</p>
+
         </div>
         <div class="container">
             <div class="service_instuction">
@@ -82,12 +150,12 @@
                 </div>
             </div>
         </div>
-        <section class="service_section container">
+        <section class="servicesex container">
             <h1 class="section_title">
                 Наши услуги
             </h1>
             <div class="service_list">
-                <div class="service_card service_card_active">
+                <div class="service_card">
                     <div class="service_card_image">
                         <img src="./assets/images/Rectangle.png" alt="">
                     </div>
@@ -100,11 +168,11 @@
                         <button class="next_btn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
                                 viewBox="0 0 40 40" fill="none">
                                 <path
-                                    d="M40 20C40 31.03 31.028 40 20 40C8.972 40 0 31.03 0 20C0 8.972 8.972 0 20 0C31.028 0 40 8.972 40 20Z"
+                                    d="M20 0C31.03 0 40 8.972 40 20C40 31.028 31.03 40 20 40C8.972 40 0 31.028 0 20C0 8.972 8.972 0 20 0Z"
                                     fill="#A3EEFF" />
                                 <path
-                                    d="M28.0847 17.1284C28.0847 17.5104 27.9387 17.8944 27.6467 18.1864L20.7067 25.1604C20.4247 25.4424 20.0427 25.6004 19.6427 25.6004C19.2447 25.6004 18.8627 25.4424 18.5807 25.1604L11.6367 18.1864C11.0527 17.6004 11.0527 16.6524 11.6407 16.0664C12.2287 15.4824 13.1787 15.4844 13.7627 16.0704L19.6427 21.9764L25.5227 16.0704C26.1067 15.4844 27.0547 15.4824 27.6427 16.0664C27.9387 16.3584 28.0847 16.7444 28.0847 17.1284Z"
-                                    fill="#2F7483" />
+                                    d="M17.1277 11.9143C17.5097 11.9143 17.8937 12.0603 18.1857 12.3523L25.1597 19.2923C25.4417 19.5743 25.5997 19.9563 25.5997 20.3563C25.5997 20.7543 25.4417 21.1363 25.1597 21.4183L18.1857 28.3623C17.5997 28.9463 16.6517 28.9463 16.0657 28.3583C15.4817 27.7703 15.4837 26.8203 16.0697 26.2363L21.9757 20.3563L16.0697 14.4763C15.4837 13.8923 15.4817 12.9443 16.0657 12.3563C16.3577 12.0603 16.7437 11.9143 17.1277 11.9143Z"
+                                    fill="white" />
                             </svg></button>
                     </div>
                 </div>
@@ -152,26 +220,88 @@
                 </div>
 
                 <div>
-                    <div class="stambul container ololo">
+                    <div class="stambul  ololo">
                         <h1>ЭЭГ (Электроэнцефалограмма)</h1>
                         <br><br>
-                        <div class="image_list_stambul">
-                            <div class="image_list_item">
-                                <img src="https://s3-alpha-sig.figma.com/img/4cb7/458c/9c43c6fcf68b1c041de8901b345ac4ae?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=oVjGbjW1f8WQkEdoaV~mjAh78-kIS-Npgdxd9DWAwrVD1cL-gopO8uspk0g~8c3thUsZzHu-n1DQZ5wJHlnSwXTmcU~zcNahwTUDDBX0QN0b338131a~X2Pk4BdQqxlgLILuJPL1nf6bpaTL-cg~AtO6RvGdRMN3zCQltdptHCRHP0GpxRF6QkMvTST720qYrl6kbwgz6pZ0cgn4pzNsYXEMhmCD4p3iOYN60hd9b9M0toLdqo~58wzYSXVrGCMi7T8fQjTK4PaWvOZuTzym4pMZ5GZhgfx5u8pAMLurHjz6UNVJedNqZIOu7OtAKc1mJsydVQSydrdJdcuHmowYQg__"
-                                    alt="">
+                        <div
+                            class="swiper-container4 image_list_stambul swiper-initialized swiper-horizontal swiper-ios swiper-backface-hidden">
+                            <div class="swiper-wrapper" id="swiper-wrapper-eeb84fdd4cdf7fd10" aria-live="polite"
+                                style="transition-duration: 0ms; transform: translate3d(-1507.23px, 0px, 0px); transition-delay: 0ms;">
+                                <div class="swiper-slide" role="group" aria-label="8 / 9" data-swiper-slide-index="7"
+                                    style="width: 280.769px; margin-right: 30px;">
+                                    <div class="image_list_item">
+                                        <img src="https://s3-alpha-sig.figma.com/img/4cb7/458c/9c43c6fcf68b1c041de8901b345ac4ae?Expires=1725235200&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=oVjGbjW1f8WQkEdoaV~mjAh78-kIS-Npgdxd9DWAwrVD1cL-gopO8uspk0g~8c3thUsZzHu-n1DQZ5wJHlnSwXTmcU~zcNahwTUDDBX0QN0b338131a~X2Pk4BdQqxlgLILuJPL1nf6bpaTL-cg~AtO6RvGdRMN3zCQltdptHCRHP0GpxRF6QkMvTST720qYrl6kbwgz6pZ0cgn4pzNsYXEMhmCD4p3iOYN60hd9b9M0toLdqo~58wzYSXVrGCMi7T8fQjTK4PaWvOZuTzym4pMZ5GZhgfx5u8pAMLurHjz6UNVJedNqZIOu7OtAKc1mJsydVQSydrdJdcuHmowYQg__"
+                                            alt="">
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="9 / 9" data-swiper-slide-index="8"
+                                    style="width: 280.769px; margin-right: 30px;">
+                                    <div class="image_list_item">
+                                        <img src="https://s3-alpha-sig.figma.com/img/4cb7/458c/9c43c6fcf68b1c041de8901b345ac4ae?Expires=1725235200&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=oVjGbjW1f8WQkEdoaV~mjAh78-kIS-Npgdxd9DWAwrVD1cL-gopO8uspk0g~8c3thUsZzHu-n1DQZ5wJHlnSwXTmcU~zcNahwTUDDBX0QN0b338131a~X2Pk4BdQqxlgLILuJPL1nf6bpaTL-cg~AtO6RvGdRMN3zCQltdptHCRHP0GpxRF6QkMvTST720qYrl6kbwgz6pZ0cgn4pzNsYXEMhmCD4p3iOYN60hd9b9M0toLdqo~58wzYSXVrGCMi7T8fQjTK4PaWvOZuTzym4pMZ5GZhgfx5u8pAMLurHjz6UNVJedNqZIOu7OtAKc1mJsydVQSydrdJdcuHmowYQg__"
+                                            alt="">
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="1 / 9" data-swiper-slide-index="0"
+                                    style="width: 280.769px; margin-right: 30px;">
+                                    <div class="image_list_item">
+                                        <img src="https://s3-alpha-sig.figma.com/img/4cb7/458c/9c43c6fcf68b1c041de8901b345ac4ae?Expires=1725235200&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=oVjGbjW1f8WQkEdoaV~mjAh78-kIS-Npgdxd9DWAwrVD1cL-gopO8uspk0g~8c3thUsZzHu-n1DQZ5wJHlnSwXTmcU~zcNahwTUDDBX0QN0b338131a~X2Pk4BdQqxlgLILuJPL1nf6bpaTL-cg~AtO6RvGdRMN3zCQltdptHCRHP0GpxRF6QkMvTST720qYrl6kbwgz6pZ0cgn4pzNsYXEMhmCD4p3iOYN60hd9b9M0toLdqo~58wzYSXVrGCMi7T8fQjTK4PaWvOZuTzym4pMZ5GZhgfx5u8pAMLurHjz6UNVJedNqZIOu7OtAKc1mJsydVQSydrdJdcuHmowYQg__"
+                                            alt="">
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="2 / 9" data-swiper-slide-index="1"
+                                    style="width: 280.769px; margin-right: 30px;">
+                                    <div class="image_list_item">
+                                        <img src="https://s3-alpha-sig.figma.com/img/4cb7/458c/9c43c6fcf68b1c041de8901b345ac4ae?Expires=1725235200&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=oVjGbjW1f8WQkEdoaV~mjAh78-kIS-Npgdxd9DWAwrVD1cL-gopO8uspk0g~8c3thUsZzHu-n1DQZ5wJHlnSwXTmcU~zcNahwTUDDBX0QN0b338131a~X2Pk4BdQqxlgLILuJPL1nf6bpaTL-cg~AtO6RvGdRMN3zCQltdptHCRHP0GpxRF6QkMvTST720qYrl6kbwgz6pZ0cgn4pzNsYXEMhmCD4p3iOYN60hd9b9M0toLdqo~58wzYSXVrGCMi7T8fQjTK4PaWvOZuTzym4pMZ5GZhgfx5u8pAMLurHjz6UNVJedNqZIOu7OtAKc1mJsydVQSydrdJdcuHmowYQg__"
+                                            alt="">
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide swiper-slide-prev" role="group" aria-label="3 / 9"
+                                    data-swiper-slide-index="2" style="width: 280.769px; margin-right: 30px;">
+                                    <div class="image_list_item">
+                                        <img src="https://s3-alpha-sig.figma.com/img/4cb7/458c/9c43c6fcf68b1c041de8901b345ac4ae?Expires=1725235200&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=oVjGbjW1f8WQkEdoaV~mjAh78-kIS-Npgdxd9DWAwrVD1cL-gopO8uspk0g~8c3thUsZzHu-n1DQZ5wJHlnSwXTmcU~zcNahwTUDDBX0QN0b338131a~X2Pk4BdQqxlgLILuJPL1nf6bpaTL-cg~AtO6RvGdRMN3zCQltdptHCRHP0GpxRF6QkMvTST720qYrl6kbwgz6pZ0cgn4pzNsYXEMhmCD4p3iOYN60hd9b9M0toLdqo~58wzYSXVrGCMi7T8fQjTK4PaWvOZuTzym4pMZ5GZhgfx5u8pAMLurHjz6UNVJedNqZIOu7OtAKc1mJsydVQSydrdJdcuHmowYQg__"
+                                            alt="">
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide swiper-slide-active" role="group" aria-label="4 / 9"
+                                    data-swiper-slide-index="3" style="width: 280.769px; margin-right: 30px;">
+                                    <div class="image_list_item">
+                                        <img src="https://s3-alpha-sig.figma.com/img/4cb7/458c/9c43c6fcf68b1c041de8901b345ac4ae?Expires=1725235200&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=oVjGbjW1f8WQkEdoaV~mjAh78-kIS-Npgdxd9DWAwrVD1cL-gopO8uspk0g~8c3thUsZzHu-n1DQZ5wJHlnSwXTmcU~zcNahwTUDDBX0QN0b338131a~X2Pk4BdQqxlgLILuJPL1nf6bpaTL-cg~AtO6RvGdRMN3zCQltdptHCRHP0GpxRF6QkMvTST720qYrl6kbwgz6pZ0cgn4pzNsYXEMhmCD4p3iOYN60hd9b9M0toLdqo~58wzYSXVrGCMi7T8fQjTK4PaWvOZuTzym4pMZ5GZhgfx5u8pAMLurHjz6UNVJedNqZIOu7OtAKc1mJsydVQSydrdJdcuHmowYQg__"
+                                            alt="">
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" role="group" aria-label="5 / 9"
+                                    data-swiper-slide-index="4" style="width: 280.769px; margin-right: 30px;">
+                                    <div class="image_list_item">
+                                        <img src="https://s3-alpha-sig.figma.com/img/4cb7/458c/9c43c6fcf68b1c041de8901b345ac4ae?Expires=1725235200&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=oVjGbjW1f8WQkEdoaV~mjAh78-kIS-Npgdxd9DWAwrVD1cL-gopO8uspk0g~8c3thUsZzHu-n1DQZ5wJHlnSwXTmcU~zcNahwTUDDBX0QN0b338131a~X2Pk4BdQqxlgLILuJPL1nf6bpaTL-cg~AtO6RvGdRMN3zCQltdptHCRHP0GpxRF6QkMvTST720qYrl6kbwgz6pZ0cgn4pzNsYXEMhmCD4p3iOYN60hd9b9M0toLdqo~58wzYSXVrGCMi7T8fQjTK4PaWvOZuTzym4pMZ5GZhgfx5u8pAMLurHjz6UNVJedNqZIOu7OtAKc1mJsydVQSydrdJdcuHmowYQg__"
+                                            alt="">
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="6 / 9" data-swiper-slide-index="5"
+                                    style="width: 280.769px; margin-right: 30px;">
+                                    <div class="image_list_item">
+                                        <img src="https://s3-alpha-sig.figma.com/img/4cb7/458c/9c43c6fcf68b1c041de8901b345ac4ae?Expires=1725235200&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=oVjGbjW1f8WQkEdoaV~mjAh78-kIS-Npgdxd9DWAwrVD1cL-gopO8uspk0g~8c3thUsZzHu-n1DQZ5wJHlnSwXTmcU~zcNahwTUDDBX0QN0b338131a~X2Pk4BdQqxlgLILuJPL1nf6bpaTL-cg~AtO6RvGdRMN3zCQltdptHCRHP0GpxRF6QkMvTST720qYrl6kbwgz6pZ0cgn4pzNsYXEMhmCD4p3iOYN60hd9b9M0toLdqo~58wzYSXVrGCMi7T8fQjTK4PaWvOZuTzym4pMZ5GZhgfx5u8pAMLurHjz6UNVJedNqZIOu7OtAKc1mJsydVQSydrdJdcuHmowYQg__"
+                                            alt="">
+                                    </div>
+
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="7 / 9" data-swiper-slide-index="6"
+                                    style="width: 280.769px; margin-right: 30px;">
+                                    <div class="image_list_item">
+                                        <img src="https://s3-alpha-sig.figma.com/img/4cb7/458c/9c43c6fcf68b1c041de8901b345ac4ae?Expires=1725235200&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&amp;Signature=oVjGbjW1f8WQkEdoaV~mjAh78-kIS-Npgdxd9DWAwrVD1cL-gopO8uspk0g~8c3thUsZzHu-n1DQZ5wJHlnSwXTmcU~zcNahwTUDDBX0QN0b338131a~X2Pk4BdQqxlgLILuJPL1nf6bpaTL-cg~AtO6RvGdRMN3zCQltdptHCRHP0GpxRF6QkMvTST720qYrl6kbwgz6pZ0cgn4pzNsYXEMhmCD4p3iOYN60hd9b9M0toLdqo~58wzYSXVrGCMi7T8fQjTK4PaWvOZuTzym4pMZ5GZhgfx5u8pAMLurHjz6UNVJedNqZIOu7OtAKc1mJsydVQSydrdJdcuHmowYQg__"
+                                            alt="">
+                                    </div>
+
+                                </div>
+
                             </div>
-                            <div class="image_list_item">
-                                <img src="https://s3-alpha-sig.figma.com/img/dd28/9608/784c2b98b6c6e1448f161ef9ade081a8?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O1meaJnfe~Cx62ZfHOsmLSfW1HPDIYJIruwG62I07nBwoWOpLRQuetW~YF8xclNHgYFJuKeVJKhUgqpw-aFUv~VmmDs~goyJGwNxpRnVjrIYkAcTvOX~8YCmzRdM9aPXh5pPXfZRwRe47JVl2rZYIfcXjWrPH8gSjjoH2REI5In6cCdXIZ3zPhEzQ59b4qyJScGLioEDfev03d5q9WENqk1a-y7cN1whDunXDc~yDsy2KvxnqsxjrRU0SlqJIJNRr5YPXXFptzfAxaRV-jdaYibeEmtdvzKRxBoZeU-NlN9VrESM5Jr9RzzXMBWA0JkkcBbf1VVhcUZNL0tfF8s5SA__"
-                                    alt="">
-                            </div>
-                            <div class="image_list_item">
-                                <img src="https://s3-alpha-sig.figma.com/img/4ebd/f485/6af1bd91a12ebc988e7dee619052978a?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ia~SDjpWP83IPWjplIzP-SZXkTsBzppzj2SY-~gwD2DAsaffLioWytLIc8WuSdZGPRofHBPc1y-6jK3CoO64TIxoQiYoR-D6zr7eA78ea-s5JaRmhBYR2qGC5aBf3bJJXMsWspmxRjcZ-rJs1Z2ZWWwuG9NoWQ3oNs~xEFXyatoDUHkNOPn8cSnkwsTQ8DlxDRZzf4JwFCBv61rfwilpD6s1DwNBFuQLW6z7f-jtKAavdTRBZDsiFE1SJCZ-eRV7xZMUv-fzFoJAun-l6MWlwYzYZF8eNKHuFW0dYtL0dPt9ePlMDlG3uh8QO78pFJ4U4PAIlfMC5941VvA4U-9s2A__"
-                                    alt="">
-                            </div>
-                            <div class="image_list_item">
-                                <img src="https://s3-alpha-sig.figma.com/img/92d1/4fca/3abd63cab11a6b6e258c7001af3e8d34?Expires=1725235200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q8ySeEUp~uk4gBodzHe8UeU6hF92Bnye44NjfNTdhde-oqRCZXhWCXvy7wIoCwsTaZeP9XaTxQR83IBPAVQnsGytUSpMYkPpE6gOiXhR~sLmk2gEwWH7j6-YoGekFiWBLghzmHkLEvjegNSXus-Nnr8czG8Wj5y8B5WBBMlqW66xNkzpsh2Ma7KCYJp5PZYBSfFfMnyqQKhmgTehT~Dno5Ua~uGYPWs7Ni56Usi9Taarm6DMiEJBN3w0JnyX53y1Dyf0bpsz0XXWrRUGQIKANRC4g6WQoi~YQpKVhuwXNeSBxcfdFtt2DD6P~CeVvU5jJ4UhvAKM2E1gL-hz49xuzw__"
-                                    alt="">
-                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                         </div>
                         <br><br>
                         <div class="stambul_text">
@@ -247,7 +377,6 @@
 
                     </div>
                 </div>
-
                 <div class="service_card">
                     <div class="service_card_image">
                         <img src="./assets/images/Rectangle.png" alt="">
@@ -452,6 +581,7 @@
             </a>
         </section>
     </main>
+    <br><br><br>
     <footer>
         <div class="container">
             <div class="top_footer">
@@ -519,6 +649,8 @@
         </div>
     </footer>
     <script src="./assets/js/script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>
