@@ -100,7 +100,8 @@
             mobile_nav.classList.remove("open"); // Закрыть меню
         });
 
-    </script>  <main class="service">
+    </script>
+    <main class="service">
         <div class="emploes_section">
             <div class="emploes_section_image">
                 <img src="https://s3-alpha-sig.figma.com/img/6bd7/92be/b79bf417e13b962d402ed83dab4e1cdb?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GQ~DcQFYmsUgpbxF~38kvZj4Fegq72rmXyaJ-Wfm6hUnqi5--UQmSC02qzvp839dtNMFg7fZsOQF3XoBGEwkLtSvDHYrjwlv8mKz5h2IdovKZhmC-xy2Ymm3bKj8p7paNEEDNnN7-M7VeGYdiF562ZOwUk4MUKwoXuxLjVby6QNdC9hMYn5fp1WkrcAwrLTRiOa25lOtuu2JEv6Lnbx58njjesqQt~cIne5udWg1PnD3Md6Kn8lbxz2ZhdZY0EcJ7et53P~pZCNveRILFf7bv8tORS5ut-s40GWWZPPx3yjKhh7CfNuou38ADKEJsxSXby8sFC0xh852AId~tT0lTQ__"
@@ -168,7 +169,7 @@
                 Наши услуги
             </h1>
             <div class="service_list">
-                <div class="service_card">
+                <a href="./serviceSelected.html" class="service_card service_card_active">
                     <div class="service_card_image">
                         <img src="./assets/images/Rectangle.png" alt="">
                     </div>
@@ -188,15 +189,36 @@
                                     fill="white" />
                             </svg></button>
                     </div>
-                </div>
-                <div class="service_card">
+                </a>
+                <a href="./serviceSelected.html" class="service_card">
                     <div class="service_card_image">
-                        <img src="./assets/images/Rectangle.png" alt="">
+                        <img src="./assets/images/moreaboutservice/Photo (83) 1.png" alt="">
                     </div>
                     <div class="service_card_desc">
                         <div>
-                            <h1>ЭЭГ
-                                (Электроэнцефалограмма) </h1>
+                            <h1>СИ 
+                                (Сенсорная интеграция) </h1>
+                            <p>Микротоковая рефлексотерапия (далее МТРТ) - авторский метод лечения...  </p>
+                        </div>
+                        <button class="next_btn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                viewBox="0 0 40 40" fill="none">
+                                <path
+                                    d="M20 0C31.03 0 40 8.972 40 20C40 31.028 31.03 40 20 40C8.972 40 0 31.028 0 20C0 8.972 8.972 0 20 0Z"
+                                    fill="#A3EEFF" />
+                                <path
+                                    d="M17.1277 11.9143C17.5097 11.9143 17.8937 12.0603 18.1857 12.3523L25.1597 19.2923C25.4417 19.5743 25.5997 19.9563 25.5997 20.3563C25.5997 20.7543 25.4417 21.1363 25.1597 21.4183L18.1857 28.3623C17.5997 28.9463 16.6517 28.9463 16.0657 28.3583C15.4817 27.7703 15.4837 26.8203 16.0697 26.2363L21.9757 20.3563L16.0697 14.4763C15.4837 13.8923 15.4817 12.9443 16.0657 12.3563C16.3577 12.0603 16.7437 11.9143 17.1277 11.9143Z"
+                                    fill="white" />
+                            </svg></button>
+                    </div>
+                </a>
+                <a href="./serviceSelected.html" class="service_card">
+                    <div class="service_card_image">
+                        <img src="./assets/images/Rectangle — копия.png" alt="">
+                    </div>
+                    <div class="service_card_desc">
+                        <div>
+                            <h1>Микротоковая 
+                                рефлексотерапия   </h1>
                             <p>Микротоковая рефлексотерапия (далее МТРТ) - авторский метод лечения... </p>
                         </div>
                         <button class="next_btn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
@@ -209,28 +231,7 @@
                                     fill="white" />
                             </svg></button>
                     </div>
-                </div>
-                <div class="service_card">
-                    <div class="service_card_image">
-                        <img src="./assets/images/Rectangle.png" alt="">
-                    </div>
-                    <div class="service_card_desc">
-                        <div>
-                            <h1>ЭЭГ
-                                (Электроэнцефалограмма) </h1>
-                            <p>Микротоковая рефлексотерапия (далее МТРТ) - авторский метод лечения... </p>
-                        </div>
-                        <button class="next_btn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
-                                viewBox="0 0 40 40" fill="none">
-                                <path
-                                    d="M20 0C31.03 0 40 8.972 40 20C40 31.028 31.03 40 20 40C8.972 40 0 31.028 0 20C0 8.972 8.972 0 20 0Z"
-                                    fill="#A3EEFF" />
-                                <path
-                                    d="M17.1277 11.9143C17.5097 11.9143 17.8937 12.0603 18.1857 12.3523L25.1597 19.2923C25.4417 19.5743 25.5997 19.9563 25.5997 20.3563C25.5997 20.7543 25.4417 21.1363 25.1597 21.4183L18.1857 28.3623C17.5997 28.9463 16.6517 28.9463 16.0657 28.3583C15.4817 27.7703 15.4837 26.8203 16.0697 26.2363L21.9757 20.3563L16.0697 14.4763C15.4837 13.8923 15.4817 12.9443 16.0657 12.3563C16.3577 12.0603 16.7437 11.9143 17.1277 11.9143Z"
-                                    fill="white" />
-                            </svg></button>
-                    </div>
-                </div>
+                </a>
 
                 <div>
                     <div class="stambul  ololo">
@@ -243,7 +244,7 @@
                                 <div class="swiper-slide" role="group" aria-label="8 / 9" data-swiper-slide-index="7"
                                     style="width: 280.769px; margin-right: 30px;">
                                     <div class="image_list_item">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2378/4b79/89b0032979772deb6e982931a2cd62e0?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W9~okT5V6hQRzXGDHdTElsCf3JFBl6VCv4Qp-j3XxfiPgGBEQTL~q6NcpvjN6DYzHn7K4nrV-O2SGmjhSVwRixahCKv0eWqEjNOWzduQfbQ6ImNgoMMAKV1QtjjiiphZWdBXsrYVbKCtAJWpUyK4qGX-N~GzFcG9jOGLncpacug~hfyLkJubHGl1snWnVQpUWXXgPCiCEPTBFMCsdjXabpnTGc3id6zKQ40aZqy2HD08T0KAHDYBdykgTOWkyanizx9aXqyH~xx5bsNIKi3qlgd1KKdUgMNvUP6iS4WsBGcDsCisIRTPxN6JjCVCSh8bEZoPlDCShMMHLxTZx1hKLQ__"
+                                        <img src="./assets/images/service/Rectangle.png"
                                             alt="">
                                     </div>
 
@@ -251,7 +252,7 @@
                                 <div class="swiper-slide" role="group" aria-label="9 / 9" data-swiper-slide-index="8"
                                     style="width: 280.769px; margin-right: 30px;">
                                     <div class="image_list_item">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2378/4b79/89b0032979772deb6e982931a2cd62e0?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W9~okT5V6hQRzXGDHdTElsCf3JFBl6VCv4Qp-j3XxfiPgGBEQTL~q6NcpvjN6DYzHn7K4nrV-O2SGmjhSVwRixahCKv0eWqEjNOWzduQfbQ6ImNgoMMAKV1QtjjiiphZWdBXsrYVbKCtAJWpUyK4qGX-N~GzFcG9jOGLncpacug~hfyLkJubHGl1snWnVQpUWXXgPCiCEPTBFMCsdjXabpnTGc3id6zKQ40aZqy2HD08T0KAHDYBdykgTOWkyanizx9aXqyH~xx5bsNIKi3qlgd1KKdUgMNvUP6iS4WsBGcDsCisIRTPxN6JjCVCSh8bEZoPlDCShMMHLxTZx1hKLQ__"
+                                        <img src="./assets/images/service/Rectangle — копия 2.png"
                                             alt="">
                                     </div>
 
@@ -259,7 +260,7 @@
                                 <div class="swiper-slide" role="group" aria-label="1 / 9" data-swiper-slide-index="0"
                                     style="width: 280.769px; margin-right: 30px;">
                                     <div class="image_list_item">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2378/4b79/89b0032979772deb6e982931a2cd62e0?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W9~okT5V6hQRzXGDHdTElsCf3JFBl6VCv4Qp-j3XxfiPgGBEQTL~q6NcpvjN6DYzHn7K4nrV-O2SGmjhSVwRixahCKv0eWqEjNOWzduQfbQ6ImNgoMMAKV1QtjjiiphZWdBXsrYVbKCtAJWpUyK4qGX-N~GzFcG9jOGLncpacug~hfyLkJubHGl1snWnVQpUWXXgPCiCEPTBFMCsdjXabpnTGc3id6zKQ40aZqy2HD08T0KAHDYBdykgTOWkyanizx9aXqyH~xx5bsNIKi3qlgd1KKdUgMNvUP6iS4WsBGcDsCisIRTPxN6JjCVCSh8bEZoPlDCShMMHLxTZx1hKLQ__"
+                                        <img src="./assets/images/service/Rectangle — копия 3.png"
                                             alt="">
                                     </div>
 
@@ -267,7 +268,7 @@
                                 <div class="swiper-slide" role="group" aria-label="2 / 9" data-swiper-slide-index="1"
                                     style="width: 280.769px; margin-right: 30px;">
                                     <div class="image_list_item">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2378/4b79/89b0032979772deb6e982931a2cd62e0?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W9~okT5V6hQRzXGDHdTElsCf3JFBl6VCv4Qp-j3XxfiPgGBEQTL~q6NcpvjN6DYzHn7K4nrV-O2SGmjhSVwRixahCKv0eWqEjNOWzduQfbQ6ImNgoMMAKV1QtjjiiphZWdBXsrYVbKCtAJWpUyK4qGX-N~GzFcG9jOGLncpacug~hfyLkJubHGl1snWnVQpUWXXgPCiCEPTBFMCsdjXabpnTGc3id6zKQ40aZqy2HD08T0KAHDYBdykgTOWkyanizx9aXqyH~xx5bsNIKi3qlgd1KKdUgMNvUP6iS4WsBGcDsCisIRTPxN6JjCVCSh8bEZoPlDCShMMHLxTZx1hKLQ__"
+                                        <img src="./assets/images/service/Rectangle — копия 3.png"
                                             alt="">
                                     </div>
 
@@ -275,7 +276,7 @@
                                 <div class="swiper-slide swiper-slide-prev" role="group" aria-label="3 / 9"
                                     data-swiper-slide-index="2" style="width: 280.769px; margin-right: 30px;">
                                     <div class="image_list_item">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2378/4b79/89b0032979772deb6e982931a2cd62e0?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W9~okT5V6hQRzXGDHdTElsCf3JFBl6VCv4Qp-j3XxfiPgGBEQTL~q6NcpvjN6DYzHn7K4nrV-O2SGmjhSVwRixahCKv0eWqEjNOWzduQfbQ6ImNgoMMAKV1QtjjiiphZWdBXsrYVbKCtAJWpUyK4qGX-N~GzFcG9jOGLncpacug~hfyLkJubHGl1snWnVQpUWXXgPCiCEPTBFMCsdjXabpnTGc3id6zKQ40aZqy2HD08T0KAHDYBdykgTOWkyanizx9aXqyH~xx5bsNIKi3qlgd1KKdUgMNvUP6iS4WsBGcDsCisIRTPxN6JjCVCSh8bEZoPlDCShMMHLxTZx1hKLQ__"
+                                        <img src="./assets/images/service/Rectangle — копия 4.png"
                                             alt="">
                                     </div>
 
@@ -283,7 +284,7 @@
                                 <div class="swiper-slide swiper-slide-active" role="group" aria-label="4 / 9"
                                     data-swiper-slide-index="3" style="width: 280.769px; margin-right: 30px;">
                                     <div class="image_list_item">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2378/4b79/89b0032979772deb6e982931a2cd62e0?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W9~okT5V6hQRzXGDHdTElsCf3JFBl6VCv4Qp-j3XxfiPgGBEQTL~q6NcpvjN6DYzHn7K4nrV-O2SGmjhSVwRixahCKv0eWqEjNOWzduQfbQ6ImNgoMMAKV1QtjjiiphZWdBXsrYVbKCtAJWpUyK4qGX-N~GzFcG9jOGLncpacug~hfyLkJubHGl1snWnVQpUWXXgPCiCEPTBFMCsdjXabpnTGc3id6zKQ40aZqy2HD08T0KAHDYBdykgTOWkyanizx9aXqyH~xx5bsNIKi3qlgd1KKdUgMNvUP6iS4WsBGcDsCisIRTPxN6JjCVCSh8bEZoPlDCShMMHLxTZx1hKLQ__"
+                                        <img src="./assets/images/service/Rectangle — копия.png"
                                             alt="">
                                     </div>
 
@@ -291,27 +292,12 @@
                                 <div class="swiper-slide swiper-slide-next" role="group" aria-label="5 / 9"
                                     data-swiper-slide-index="4" style="width: 280.769px; margin-right: 30px;">
                                     <div class="image_list_item">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2378/4b79/89b0032979772deb6e982931a2cd62e0?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W9~okT5V6hQRzXGDHdTElsCf3JFBl6VCv4Qp-j3XxfiPgGBEQTL~q6NcpvjN6DYzHn7K4nrV-O2SGmjhSVwRixahCKv0eWqEjNOWzduQfbQ6ImNgoMMAKV1QtjjiiphZWdBXsrYVbKCtAJWpUyK4qGX-N~GzFcG9jOGLncpacug~hfyLkJubHGl1snWnVQpUWXXgPCiCEPTBFMCsdjXabpnTGc3id6zKQ40aZqy2HD08T0KAHDYBdykgTOWkyanizx9aXqyH~xx5bsNIKi3qlgd1KKdUgMNvUP6iS4WsBGcDsCisIRTPxN6JjCVCSh8bEZoPlDCShMMHLxTZx1hKLQ__"
+                                        <img src="./assets/images/service/Rectangle — копия 3.png"
                                             alt="">
                                     </div>
 
                                 </div>
-                                <div class="swiper-slide" role="group" aria-label="6 / 9" data-swiper-slide-index="5"
-                                    style="width: 280.769px; margin-right: 30px;">
-                                    <div class="image_list_item">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2378/4b79/89b0032979772deb6e982931a2cd62e0?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W9~okT5V6hQRzXGDHdTElsCf3JFBl6VCv4Qp-j3XxfiPgGBEQTL~q6NcpvjN6DYzHn7K4nrV-O2SGmjhSVwRixahCKv0eWqEjNOWzduQfbQ6ImNgoMMAKV1QtjjiiphZWdBXsrYVbKCtAJWpUyK4qGX-N~GzFcG9jOGLncpacug~hfyLkJubHGl1snWnVQpUWXXgPCiCEPTBFMCsdjXabpnTGc3id6zKQ40aZqy2HD08T0KAHDYBdykgTOWkyanizx9aXqyH~xx5bsNIKi3qlgd1KKdUgMNvUP6iS4WsBGcDsCisIRTPxN6JjCVCSh8bEZoPlDCShMMHLxTZx1hKLQ__"
-                                            alt="">
-                                    </div>
-
-                                </div>
-                                <div class="swiper-slide" role="group" aria-label="7 / 9" data-swiper-slide-index="6"
-                                    style="width: 280.769px; margin-right: 30px;">
-                                    <div class="image_list_item">
-                                        <img src="https://s3-alpha-sig.figma.com/img/2378/4b79/89b0032979772deb6e982931a2cd62e0?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W9~okT5V6hQRzXGDHdTElsCf3JFBl6VCv4Qp-j3XxfiPgGBEQTL~q6NcpvjN6DYzHn7K4nrV-O2SGmjhSVwRixahCKv0eWqEjNOWzduQfbQ6ImNgoMMAKV1QtjjiiphZWdBXsrYVbKCtAJWpUyK4qGX-N~GzFcG9jOGLncpacug~hfyLkJubHGl1snWnVQpUWXXgPCiCEPTBFMCsdjXabpnTGc3id6zKQ40aZqy2HD08T0KAHDYBdykgTOWkyanizx9aXqyH~xx5bsNIKi3qlgd1KKdUgMNvUP6iS4WsBGcDsCisIRTPxN6JjCVCSh8bEZoPlDCShMMHLxTZx1hKLQ__"
-                                            alt="">
-                                    </div>
-
-                                </div>
+                             
 
                             </div>
                             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
@@ -390,14 +376,14 @@
 
                     </div>
                 </div>
-                <div class="service_card">
+                <a href="./serviceSelected.html" class="service_card">
                     <div class="service_card_image">
-                        <img src="./assets/images/Rectangle.png" alt="">
+                        <img src="./assets/images/service/Rectangle.png" alt="">
                     </div>
                     <div class="service_card_desc">
                         <div>
-                            <h1>ЭЭГ
-                                (Электроэнцефалограмма) </h1>
+                            <h1>АВА
+                                терапия </h1>
                             <p>Микротоковая рефлексотерапия (далее МТРТ) - авторский метод лечения... </p>
                         </div>
                         <button class="next_btn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
@@ -410,15 +396,14 @@
                                     fill="white" />
                             </svg></button>
                     </div>
-                </div>
-                <div class="service_card">
+                </a>
+                <a href="./serviceSelected.html" class="service_card">
                     <div class="service_card_image">
-                        <img src="./assets/images/Rectangle.png" alt="">
+                        <img src="./assets/images/service/Rectangle — копия.png" alt="">
                     </div>
                     <div class="service_card_desc">
                         <div>
-                            <h1>ЭЭГ
-                                (Электроэнцефалограмма) </h1>
+                            <h1>Занятия с логопедом</h1>
                             <p>Микротоковая рефлексотерапия (далее МТРТ) - авторский метод лечения... </p>
                         </div>
                         <button class="next_btn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
@@ -431,15 +416,15 @@
                                     fill="white" />
                             </svg></button>
                     </div>
-                </div>
-                <div class="service_card">
+                </a>
+                <a href="./serviceSelected.html" class="service_card">
                     <div class="service_card_image">
-                        <img src="./assets/images/Rectangle.png" alt="">
+                        <img src="./assets/images/service/Rectangle — копия 2.png" alt="">
                     </div>
                     <div class="service_card_desc">
                         <div>
-                            <h1>ЭЭГ
-                                (Электроэнцефалограмма) </h1>
+                            <h1>Занятия с дефектологом
+                            </h1>
                             <p>Микротоковая рефлексотерапия (далее МТРТ) - авторский метод лечения... </p>
                         </div>
                         <button class="next_btn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
@@ -452,15 +437,15 @@
                                     fill="white" />
                             </svg></button>
                     </div>
-                </div>
-                <div class="service_card">
+                </a>
+                <a href="./serviceSelected.html" class="service_card">
                     <div class="service_card_image">
-                        <img src="./assets/images/Rectangle.png" alt="">
+                        <img src="./assets/images/Rectangle — копия.png" alt="">
                     </div>
                     <div class="service_card_desc">
                         <div>
-                            <h1>ЭЭГ
-                                (Электроэнцефалограмма) </h1>
+                            <h1>Логопедический
+                                массаж </h1>
                             <p>Микротоковая рефлексотерапия (далее МТРТ) - авторский метод лечения... </p>
                         </div>
                         <button class="next_btn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
@@ -473,15 +458,15 @@
                                     fill="white" />
                             </svg></button>
                     </div>
-                </div>
-                <div class="service_card">
+                </a>
+                <a href="./serviceSelected.html" class="service_card">
                     <div class="service_card_image">
-                        <img src="./assets/images/Rectangle.png" alt="">
+                        <img src="./assets/images/service/Rectangle — копия 3.png" alt="">
                     </div>
                     <div class="service_card_desc">
                         <div>
-                            <h1>ЭЭГ
-                                (Электроэнцефалограмма) </h1>
+                            <h1>Консультация 
+                                нутрициолога </h1>
                             <p>Микротоковая рефлексотерапия (далее МТРТ) - авторский метод лечения... </p>
                         </div>
                         <button class="next_btn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
@@ -494,15 +479,15 @@
                                     fill="white" />
                             </svg></button>
                     </div>
-                </div>
-                <div class="service_card">
+                </a>
+                <a href="./serviceSelected.html" class="service_card">
                     <div class="service_card_image">
-                        <img src="./assets/images/Rectangle.png" alt="">
+                        <img src="./assets/images/service/Rectangle — копия 4.png" alt="">
                     </div>
                     <div class="service_card_desc">
                         <div>
-                            <h1>ЭЭГ
-                                (Электроэнцефалограмма) </h1>
+                            <h1>Детский
+                                массаж</h1>
                             <p>Микротоковая рефлексотерапия (далее МТРТ) - авторский метод лечения... </p>
                         </div>
                         <button class="next_btn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
@@ -515,15 +500,14 @@
                                     fill="white" />
                             </svg></button>
                     </div>
-                </div>
-                <div class="service_card">
+                </a>
+                <a href="./serviceSelected.html" class="service_card">
                     <div class="service_card_image">
-                        <img src="./assets/images/Rectangle.png" alt="">
+                        <img src="./assets/images/service/Rectangle — копия 4.png" alt="">
                     </div>
                     <div class="service_card_desc">
                         <div>
-                            <h1>ЭЭГ
-                                (Электроэнцефалограмма) </h1>
+                            <h1>Занятия в аудиотренажере </h1>
                             <p>Микротоковая рефлексотерапия (далее МТРТ) - авторский метод лечения... </p>
                         </div>
                         <button class="next_btn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
@@ -536,15 +520,14 @@
                                     fill="white" />
                             </svg></button>
                     </div>
-                </div>
-                <div class="service_card">
+                </a>
+                <a href="./serviceSelected.html" class="service_card">
                     <div class="service_card_image">
                         <img src="./assets/images/Rectangle.png" alt="">
                     </div>
                     <div class="service_card_desc">
                         <div>
-                            <h1>ЭЭГ
-                                (Электроэнцефалограмма) </h1>
+                            <h1>Занятие с инструктором  физической культуры</h1>
                             <p>Микротоковая рефлексотерапия (далее МТРТ) - авторский метод лечения... </p>
                         </div>
                         <button class="next_btn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
@@ -557,15 +540,14 @@
                                     fill="white" />
                             </svg></button>
                     </div>
-                </div>
-                <div class="service_card">
+                </a>
+                <a href="./serviceSelected.html" class="service_card">
                     <div class="service_card_image">
-                        <img src="./assets/images/Rectangle.png" alt="">
+                        <img src="./assets/images/service/Rectangle.png" alt="">
                     </div>
                     <div class="service_card_desc">
                         <div>
-                            <h1>ЭЭГ
-                                (Электроэнцефалограмма) </h1>
+                            <h1>Занятие с инструктором  лечебной культуры </h1>
                             <p>Микротоковая рефлексотерапия (далее МТРТ) - авторский метод лечения... </p>
                         </div>
                         <button class="next_btn"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
@@ -578,7 +560,8 @@
                                     fill="white" />
                             </svg></button>
                     </div>
-                </div>
+                </a>
+
 
             </div>
             <a href="">
@@ -661,8 +644,9 @@
             </div>
         </div>
     </footer>
-    <script src="./assets/js/script.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/script.js"></script>
 
 </body>
 

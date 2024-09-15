@@ -137,10 +137,6 @@ body {
     justify-content: end;
 }
 
-.top_head_section_right {
-    /* width: calc(80% - 40px); */
-
-}
 
 .swiper img {
     width: 100%;
@@ -1837,7 +1833,6 @@ li {
     }
 }
 
-.video_card {}
 
 .video_card_image {
     overflow: hidden;
@@ -2123,7 +2118,6 @@ li {
     overflow: hidden;
 }
 
-.certificagte_slider_item {}
 
 .image_list_stambula {
     display: none;
