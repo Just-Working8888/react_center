@@ -2475,14 +2475,16 @@ li {
     }
 
     .swiper img {
-        position: absolute;
+        /* position: absolute; */
+        margin-top: 1rem;
+        object-fit: cover;
         width: 100%;
         left: 0;
     }
 
-    .top_head_section_left {
+    /* .top_head_section_left {
         margin-top: 300px;
-    }
+    } */
 
     .image_list_item {
         width: 100%;
