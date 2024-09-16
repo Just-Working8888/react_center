@@ -345,8 +345,13 @@ a {
     font-weight: 400;
     line-height: 28.8px;
     text-align: center;
-
 }
+
+
+.bordered_btn:hover {
+    cursor: pointer;
+}
+
 
 .service_section {
     padding-top: 60px;
@@ -370,8 +375,23 @@ a {
     background-color: rgba(227, 250, 255, 1);
     border-radius: 30px;
     overflow: hidden;
+    transition: all 0.2s;
+}
+
+.service_card:hover {
+    background: #2F7483;
+    cursor: pointer;
+
+    h1 {
+        color: #fff;
+    }
+
+    p {
+        color: #fff;
+    }
 
 }
+
 
 .service_card_image {
     width: 100%;
@@ -727,7 +747,10 @@ a {
     border: none;
     line-height: 28.8px;
     text-align: center;
+}
 
+.from_button:hover {
+ cursor: pointer;
 }
 
 .contact_item {
@@ -2357,6 +2380,9 @@ li {
             font-size: 12px;
         }
     }
+
+
+    
 
     .white_btn {
         padding: 8px 24px;
